@@ -5,7 +5,7 @@
     }
 
     body {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #06229e 0%, #020003 100%);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       display: flex;
       justify-content: center;
@@ -16,18 +16,18 @@
     }
 
     @keyframes gradientShift {
-      0%, 100% { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-      50% { background: linear-gradient(135deg, #764ba2 0%, #667eea 100%); }
+      0%, 100% { background: linear-gradient(135deg, #06229e 0%, #020003 100%); }
+      50% { background: linear-gradient(135deg, #098b1a 0%, #be0a79 100%); }
     }
 
     .chat-container {
       width: 100%;
       max-width: 800px;
       height: 700px;
-      background: rgba(255, 255, 255, 0.95);
+      background: rgba(73, 42, 42, 0.95);
       backdrop-filter: blur(10px);
       border-radius: 20px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 0 0 1px rgba(255,255,255,0.2);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255,255,255,0.2);
       display: flex;
       flex-direction: column;
       overflow: hidden;
@@ -46,7 +46,7 @@
     }
 
     .chat-header {
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: linear-gradient(135deg, #0927ad, #026186);
       color: white;
       padding: 20px;
       text-align: center;
@@ -192,7 +192,7 @@
       border: 2px solid transparent;
       border-radius: 25px;
       outline: none;
-      background: white;
+      background: rgb(151, 149, 149);
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
       transition: all 0.3s ease;
     }

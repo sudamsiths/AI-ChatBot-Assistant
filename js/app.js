@@ -35,7 +35,7 @@ let chatHistory = [];
           {
             method: 'POST',
             headers: {
-              Authorization: 'Bearer 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', // Replace with your API key
+              Authorization: 'Bearer <Your API Key>', // Replace with your API key
               'HTTP-Referer': 'https://www.sitename.com',
               'X-Title': 'SiteName',
               'Content-Type': 'application/json',
